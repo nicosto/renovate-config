@@ -1,15 +1,11 @@
 {
-    "logLevel": "error",
-    "onboardingConfig": {
-        "extends": [
-            "config:base"
-        ]
-    },
+    "extends": [
+        ":ignoreModulesAndTests",
+        ":label(renovate)",
+        ":prConcurrentLimit10",
+        ":prNotPending"
+    ],
     "repositories": [
         "nicosto/container-syft",
     ],
-    "onboarding": false,
-    "printConfig": true,
-    "requireConfig": false,
-    "includeForks": true
 }
