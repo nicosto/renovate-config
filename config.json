@@ -1,0 +1,15 @@
+{
+    "logLevel": "error",
+    "onboardingConfig": {
+        "extends": [
+            "config:base"
+        ]
+    },
+    "repositories": [
+        "nicosto/container-syft",
+    ],
+    "onboarding": false,
+    "printConfig": true,
+    "requireConfig": false,
+    "includeForks": true
+}
