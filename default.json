@@ -1,11 +1,5 @@
 {
-    "extends": [
-        ":ignoreModulesAndTests",
-        ":label(renovate)",
-        ":prConcurrentLimit10",
-        ":prNotPending"
-    ],
-    "repositories": [
-        "nicosto/container-syft",
-    ],
+    "major": {
+        "dependencyDashboardApproval": true
+    }
 }
