@@ -1,5 +1,5 @@
 {
     "major": {
-        "dependencyDashboardApproval": true
+        "dependencyDashboardApproval": false
     }
 }
